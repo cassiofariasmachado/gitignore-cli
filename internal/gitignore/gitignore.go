@@ -60,7 +60,7 @@ func (g GitIgnore) SaveFile() {
 		log.Fatal("Error saving .gitignore file: %v", err)
 	}
 
-	log.Print(".gitignore file saved to %s\n", g.Path)
+	log.Print(".gitignore file saved to path: %s\n", g.Path)
 }
 
 func (g GitIgnore) Close() {

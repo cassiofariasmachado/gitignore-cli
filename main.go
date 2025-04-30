@@ -15,10 +15,15 @@ var (
 )
 
 func init() {
+	flag.Usage = func() {
+		flag.PrintDefaults()
+	}
+	flag.CommandLine.Init("gitignore-cli", flag.ContinueOnError)
+
 	name = flag.String("name", "", "Name of the gitignore file to download")
 	path = flag.String("path", ".gitignore", "Path to save the gitignore file")
 	debug = flag.Bool("debug", false, "Enable debug mode")
-	baseUrl = flag.String("baseurl", "https://raw.githubusercontent.com/github/gitignore/main/%s.gitignore", "Base URL for downloading gitignore files")
+	baseUrl = flag.String("base-url", "https://raw.githubusercontent.com/github/gitignore/main/%s.gitignore", "Base URL for downloading gitignore files")
 
 	flag.Parse()
 
