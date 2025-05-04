@@ -10,7 +10,7 @@ To use GitIgnore CLI, simply run the following commands in your terminal:
 
 1. Install the tool using `go install`:
     ```bash
-    go install github.com/cassiofariasmachado/gitignore-cli
+    go install github.com/cassiofariasmachado/gitignore-cli@latest
     ```
 
 2. Run the tool with the desired command:
