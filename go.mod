@@ -1,3 +1,3 @@
 module github.com/cassiofariasmachado/gitignore-cli
 
-go 1.23.6
+go 1.24.2

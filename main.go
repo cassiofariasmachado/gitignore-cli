@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 
-	"github.com/cassiofariasmachado/gitignore-cli/internal/gitignore"
-	"github.com/cassiofariasmachado/gitignore-cli/internal/utils/log"
+	"github.com/cassiofariasmachado/gitignore-cli/gitignore"
+	"github.com/cassiofariasmachado/gitignore-cli/utils/log"
 )
 
 var (

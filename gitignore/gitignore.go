@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/cassiofariasmachado/gitignore-cli/internal/utils/log"
+	"github.com/cassiofariasmachado/gitignore-cli/utils/log"
 )
 
 type GitIgnore struct {
